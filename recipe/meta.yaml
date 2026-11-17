@@ -1,13 +1,13 @@
 {% set python_min = "3.12" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6.0" %}
 
 package:
   name: geost
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/g/geost/geost-{{ version }}.tar.gz
-  sha256: dfe25b6914fc9f99fe355999b8399cd6dae5eb07f50bedc330a712bb239d8207
+  url: https://files.pythonhosted.org/packages/source/g/geost/geost-{{ version }}.tar.gz
+  sha256: 5d861f6254a6707352e44f75b129dcf4fa9379fe07fcce1102c04a7c217f8295
 
 build:
   noarch: python
