@@ -32,7 +32,7 @@ requirements:
     - openpyxl
     - rioxarray
     - shapely
-    - pyvista
+    - scipy
     - pydap
     - platformdirs
 
